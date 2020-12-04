@@ -1,0 +1,32 @@
+header {
+  width: 100%;
+  background-color: cornflowerblue;
+}
+
+header > .href {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+header > .href > ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  display: flex;
+
+}
+
+header > .href > ul > li {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 2em;
+  margin: 0 2em;
+  background-color: rgb(177, 198, 238);
+}
+
+header > .href > ul > li > a{
+  color: black;
+  padding-left: 2rem;
+  line-height: 48px;
+}
